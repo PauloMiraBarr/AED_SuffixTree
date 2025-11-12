@@ -2,6 +2,12 @@
 
 Estructura aplicada al reconocimiento de llaves únicas para reconocer el genoma único de una cadena genética.
 
+**Contenido:**
+  - Códigos
+  - PDF de la investigación
+  - README
+  - Licencia
+
 **Orden de códigos:**
 1. `suffix_tree.cpp` (estructura suffix tree pura)
 2. `gst_dna.cpp` (aplicación de suffix tree)
