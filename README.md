@@ -23,3 +23,8 @@ Estructura aplicada al reconocimiento de llaves únicas para reconocer el genoma
 
 4. Implementación de Ukkonen's Algorithm by cp-algorithms
   - https://cp-algorithms.com/string/suffix-tree-ukkonen.html
+
+### AED Generalized Suffix Trees (GST) *necesario para aplicarlo a genomas*
+
+1. Explicación y construcción de un GST para matching de dos cadenas (strings)
+  - https://www.youtube.com/watch?v=Y9dXDcjxkB4&t=1480s
