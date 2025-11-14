@@ -17,6 +17,7 @@ Estructura aplicada al reconocimiento de llaves únicas para reconocer el genoma
 
 1. Video explicativo del algoritmo de Ukkonen
   - https://www.youtube.com/watch?v=aPRqocoBsFQ
+  - **Código referencial:** https://github.com/mission-peace/interview/blob/master/src/com/interview/suffixprefix/SuffixTree.java
 
 
 2. Visualizador del algoritmo de Ukkonen
