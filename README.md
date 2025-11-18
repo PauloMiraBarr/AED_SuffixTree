@@ -28,8 +28,8 @@ Estructura aplicada al reconocimiento de llaves únicas para reconocer el genoma
   - https://stackoverflow.com/questions/9452701/ukkonens-suffix-tree-algorithm-in-plain-english
 
 
-4. Implementación de Ukkonen's Algorithm by cp-algorithms
-  - https://cp-algorithms.com/string/suffix-tree-ukkonen.html
+4. Implementación de Ukkonen's Algorithm by @Rerito
+  - [https://cp-algorithms.com/string/suffix-tree-ukkonen.html](https://github.com/Rerito/suffix-tree/tree/master)
 
 ### AED Generalized Suffix Trees (GST) *necesario para aplicarlo a genomas*
 
