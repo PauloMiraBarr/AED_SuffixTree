@@ -62,20 +62,21 @@ std::vector<std::string> inputs = {
     "TACG"
 };
 ```
-> Nota: si usas `END_TOKEN` distinto de `$`, asegúrate de añadirlo manualmente o de que `add_string` lo haga.
+> Nota: si deseas usar un `END_TOKEN` distinto de `$`, se puede ajustar en el código cambiando END_TOKEN dentro de SuffixTree.h
 
 ### Interacción en tiempo de ejecución
 Mientras el visualizador está abierto, puedes controlar la construcción y pruebas de la siguiente forma:
 
-- **Intro / Enter**: al presionar Enter, el visualizador avanza **paso a paso** en la construcción del GST. Cada pulsación ejecuta el siguiente paso significativo del algoritmo (por ejemplo, procesar el siguiente carácter, crear nodos, romper aristas, etc.), actualizando la vista gráfica para reflejar el estado actual del árbol.
-- **'t' (tecla t)**: abre un **prompt** dentro de la ventana (o en la consola si así está implementado) para introducir una cadena de prueba. Al ingresar la cadena, el visualizador preguntará si deseas comprobar:
+- **Intro / Enter**: al presionar Enter, el visualizador avanza **paso a paso** en la construcción del GST. Cada pulsación ejecuta el siguiente paso relativo del algoritmo, actualizando la vista gráfica para reflejar el estado actual del árbol.
+- **'t' (tecla t)**: abre un **prompt** dentro de la ventana para introducir una cadena de prueba. Al ingresar la cadena, el visualizador te responderá lo siguiente:
   - Si es **sufijo** (`is_suffix`)
   - Si es **substring** (`is_substring`)
-  Según la opción, mostrará el resultado (true/false) y, si aplica, resaltará en el árbol el camino correspondiente usando el coloreo por bitset o un resaltado temporal.
+  Para cada uno, mostrará el resultado (true/false).
 
 ### Qué se muestra
 - Nodos y aristas en una vista jerárquica legible.
-- Información por nodo: índice, intervalos de borde (start, end), y bitset de coloreo (visualizado como pequeñas marcas o leyenda).
+- Información por nodo: bitset de coloreo.
+- Información por arista: sufijo que consume la arista.
 - Resaltado temporal del camino evaluado para `is_suffix` / `is_substring`.
 
 ---
