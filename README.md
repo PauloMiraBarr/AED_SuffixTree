@@ -36,6 +36,3 @@ Estructura aplicada al reconocimiento de llaves únicas para reconocer el genoma
 1. Explicación y construcción de un GST para matching de dos cadenas (strings)
   - https://www.youtube.com/watch?v=Y9dXDcjxkB4&t=1480s
 
-### Template SFML para graficar *visualizador*
-
-  - https://github.com/SFML/cmake-sfml-project
