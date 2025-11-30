@@ -126,6 +126,6 @@ make
 ---
 
 ## Licencia
-Incluye la licencia escogida por el autor en el repo (p. ej. MIT, GPL, etc.).
+Este proyecto está bajo la licencia MIT. Consulta el archivo LICENSE para más detalles.
 
 ---
