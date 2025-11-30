@@ -37,9 +37,9 @@ include/
 └─ Visualizer.h
 
 src/
-├─ InternalEstructusImplementation.cpp   # estructuras internas del ST/GST
-├─ SuffixTreePrivate.cpp                 # métodos privados e implementación interna
-└─ SuffixTreePublic.cpp                  # métodos y API pública
+├─ InternalStruct.cpp         # estructuras internas del ST/GST
+├─ SuffixTreePrivate.cpp      # métodos privados e implementación interna
+└─ SuffixTreePublic.cpp       # métodos y API pública
 ```
 
 **Razonamiento de diseño:** la implementación está separada en tres capas para mantener claridad: estructuras internas (nodos, aristas, estados), implementación privada (funciones auxiliares y mantenimiento) y métodos públicos (API para el usuario). Esto facilita mantenimiento y pruebas unitarias.
