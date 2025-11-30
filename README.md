@@ -109,7 +109,8 @@ make
 
 ## Recursos y lectura recomendada
 
-- Ukkonen's Algorithm — video explicativo: https://www.youtube.com/watch?v=aPRqocoBsFQ  
+- Ukkonen's Algorithm — video explicativo: https://www.youtube.com/watch?v=aPRqocoBsFQ
+- StackOverflow Ukkonen Lectura — https://stackoverflow.com/questions/9452701/ukkonens-suffix-tree-algorithm-in-plain-english
 - Animación del algoritmo: https://brenden.github.io/ukkonen-animation/  
 - Generalized suffix tree — matching de dos cadenas (video): https://www.youtube.com/watch?v=Y9dXDcjxkB4&t=1480s  
 - Implementaciones de referencia: https://github.com/Rerito/suffix-tree/tree/master
