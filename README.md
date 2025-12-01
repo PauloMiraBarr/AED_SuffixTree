@@ -1,5 +1,9 @@
 # Suffix Tree & Generalized Suffix Tree (GST) – Hito 2 (Curso AED)
 
+ - Paulo Isael Miranda Barrientos
+ - Elmer Jose Manuel Villegas Suarez
+ - Jose Daniel Huaman Rosales
+
 Implementación en **C++20** de un **Suffix Tree** y su extensión a **Generalized Suffix Tree (GST)**, con un visualizador gráfico desarrollado usando **SFML 2.6**.  
 El propósito del proyecto es experimentar y visualizar la construcción de GSTs y ofrecer utilidades para comprobar sufijos y substrings, aplicable a problemas como identificación de patrones en genomas.
 
